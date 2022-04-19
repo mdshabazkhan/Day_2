@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html-Day2</title>
+</head>
+<body>
+    <h1>Checkbox,Radio button,Dropdown, Form,Table</h1>
+    <p>Checkbox : Checkbox is used to select more than one options</p>
+    <p>Radio button : Radio button is used to select only one option</p>
+    <form action="">
+        <input type="checkbox" name="course1" id="html" value="html">
+        <label for="html">HTML</label><br><br>
+        <input type="checkbox" name="course2" id="css" value="css">
+        <label for="css">CSS</label><br><br>
+        <input type="checkbox" name="course3" id="js" value="js">
+        <label for="js">JavaScript</label><br><br>
+
+        <input type="radio" name="course" id="html" value="html">
+        <label for="html">HTML</label><br><br>
+        <input type="radio" name="course" id="css" value="css">
+        <label for="css">CSS</label><br><br>
+        <input type="radio" name="course" id="js" value="js">
+        <label for="js">JavaScript</label><br><br>
+
+        <label for="Cars">Select the below cars</label>
+        <select name="Brands" id="cars">
+        <option value="PORSCHE">PORSCHE</option>
+        <option value="AUDI">AUDI</option>
+        <option value="TESLA">TESLA</option>
+        <option value="BMW">BMW</option>
+    </select><br><br>
+    <input type="submit">
+    </form><br>
+
+    <label for="absolute">Using Absolute-Path</label>
+    <img height="400" src="https://images.ctfassets.net/ih31w4gbf9hm/1novNF5qEVnPHU8Wx2UKYD/d43c5bfdcf952c4a5f8b137b2b56592c/porsche-centre-markham-en.jpeg" alt="404 error" id="absolute">
+    <br><br>
+    <label for="relative">Using Relative-Path</label>
+    <img height="500" src="./AqhdQHc.jpg" alt="404 error" id="relative">
+
+    <table border="1px" width="500px;">
+        <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>CONTACT</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>1</td>
+            <td>123456789</td>
+        </tr>
+        <tr>
+            <td>Banana</td>
+            <td>2</td>
+            <td>234567891</td>
+        </tr>
+        <tr>
+            <td>Camel</td>
+            <td>3</td>
+            <td>345678912</td>
+        </tr>
+    </table><br><br>
+
+    <table border="1px" width="500px" height="200px">
+        <tr>
+            <th>Column1</th>
+            <th>Column2</th>
+            <th>Column3</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Row 1 Cell 1</td>
+            <td>Row 1 Cell 2</td>
+            <td>Row 1 Cell 3</td>
+        </tr>
+        <tr>
+            
+            <td>Row 2 Cell 2</td>
+            <td>Row 2 Cell 3</td>
+        </tr>
+        <tr>
+           <td colspan="3">Row 3 Cell 1</td>
+        </tr>
+    </table>
+</body>
+</html>
